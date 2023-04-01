@@ -46,7 +46,7 @@ public class Workspace extends Gmail{
                endTime=calendar.get(i).getEndTime();
            }
        }
-         return count;
+         return count+1;
 
     }
 }
