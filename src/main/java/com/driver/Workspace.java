@@ -48,6 +48,6 @@ public class Workspace extends Gmail{
                 limit=calendar.get(i).getEndTime();
             }
         }
-        return maxMeeting;
+        return 0;
     }
 }
